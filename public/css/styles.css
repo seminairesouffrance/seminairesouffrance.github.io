@@ -4,7 +4,7 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: light;
   color: #444444;
-  font-size: 16px;
+  font-size: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -54,7 +54,7 @@ pre code {
 
 .light {
   background: #444;
-  color: #ccccbb;
+  color: #ccccc0;
 }
 
 .dark {
@@ -194,50 +194,21 @@ pre code {
 /* ======= Promo Section ======= */
 
 .promo {
-  font-family: 'Special Elite', cursive;
-  background: #333333;
-  color: #fff;
   padding-top: 150px;
 }
 
 .promo .title {
-  /*font-family: 'Special Elite', cursive;*/
-  font-family: 'Open Sans Condensed', sans-serif;
-
-  font-size: 60px;
-  color: #ccccbb;
+  color: #666666;
+  font-size: 50px;
   margin-top: 0;
 }
 
-.promo .title .highlight {
-  color: #eebf3f;
-}
-
 .promo .intro {
-  font-size: 18px;
+  font-family: 'Special Elite', cursive;
   max-width: 680px;
   margin: 40px auto 30px auto;
-  /*margin-bottom: 30px;*/
 }
-.promo .btns .btn {
-  margin-right: 15px;
-  font-size: 18px;
-  padding: 8px 30px;
-}
-.promo .meta {
-  margin-top: 120px;
-  margin-bottom: 30px;
-  color: #0a7396;
-}
-.promo .meta li {
-  margin-right: 15px;
-}
-.promo .meta a {
-  color: #0a7396;
-}
-.promo .meta a:hover {
-  color: #074f66;
-}
+
 .promo .social-media {
   background: #333333;;
   padding: 10px 0;
@@ -255,9 +226,6 @@ pre code {
 /* ======= About Section ======= */
 
 .about {
-  background: #444;
-  color: #ccccbb;
-  font-size: 14px;
   font-family: 'Open Sans Condensed', sans-serif;
   /*font-family: "Courier New", courier, monospace;*/
   /*font-family: 'Oswald', sans-serif;*/
